@@ -552,10 +552,48 @@
         <object-type name="Button" sid="376400259652749">
             <plugin id="Button" />
         </object-type>
+        <object-type name="Sprite3" sid="732602814429454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308315170539388" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501235" original-source="C:\Users\oggle\Desktop\game-dev\game_dev_2-\de40cbcf181952bccf85031ad9304cb9--game-resources-tile-ideas.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="185951374857143">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="369163382603649">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843150364072300" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="127355574134697">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243419497952467" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="540207709158836">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240959251579182" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501235" original-source="C:\Users\oggle\Desktop\game-dev\game_dev_2-\soccer.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
